@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     line-height: 150%;
 }
@@ -19,30 +24,41 @@ img {
     border-radius: 24px;
     margin: 48px auto;
     box-sizing: border-box;
-}
 
-/* main {
-    background-color: white;
-    padding: 0px 24px 24px 24px;
-} */
+}
 
 main {
     font-family: "Alice", serif;
     font-weight: 400;
     font-style: normal;
+    padding: 24px;
 }
 
 h1 {
     line-height: 140%;
     font-size: 40px;
     color: #291B1A;
+    margin-bottom: 4px;
 }
 
 h2 {
     font-size: 24px;
     color: #291B1A;
+    padding-bottom: 4px;
 }
 
 p {
     color: #573A37;
+}
+
+.about p + p {
+    margin-top: 12px;
+}
+
+section + section {
+    margin-top: 24px;
+}
+
+ul {
+    padding-left: 24px;
 }
