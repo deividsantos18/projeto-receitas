@@ -1,3 +1,7 @@
+:root {
+    line-height: 150%;
+}
+
 body {
     background-image: url(assents/bg-image.jpg);
     background-size: cover;
@@ -17,7 +21,28 @@ img {
     box-sizing: border-box;
 }
 
-main {
+/* main {
     background-color: white;
     padding: 0px 24px 24px 24px;
+} */
+
+main {
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    line-height: 140%;
+    font-size: 40px;
+    color: #291B1A;
+}
+
+h2 {
+    font-size: 24px;
+    color: #291B1A;
+}
+
+p {
+    color: #573A37;
 }
